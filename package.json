@@ -1,0 +1,12 @@
+{
+  "name": "website-scraper_node_spa-single",
+  "version": "1.0.0",
+  "description": "A web scraping script using website-scraper",
+  "main": "index.js",
+  "author": "skmt3p",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "website-scraper": "^4.2.0"
+  }
+}
