@@ -1,8 +1,8 @@
 const scrape = require('website-scraper')
 
 // any webpage you want to scrape
-const url = 'https://www.oyolife.co.jp/'
-const dir = url.replace('https://', '')
+const url = 'https://'
+const dir = url.replace('https://nodejs.org', '')
 const options = {
     urls: [url],
     directory: `./src/${dir}`,
